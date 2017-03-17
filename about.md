@@ -4,39 +4,43 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is **Igor Quintanilha** and I'm a master's student at Federal University of Rio de Janeiro (UFRJ) in [Electric Engineering Program](http://www.pee.ufrj.br) of [Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa em Engenharia](http://coppe.ufrj.br) (COPPE).
+Hi, my name is **Igor Quintanilha** and I'm a master's student at Federal University of Rio de Janeiro (UFRJ) in the [Electric Engineering Program](http://www.pee.ufrj.br) of [Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa em Engenharia](http://coppe.ufrj.br) (COPPE) - Brazil.
 
-My research interest is in study and application of **deep learning** techniques, specially in *automatic speech recognition*.
+My research interest is in the study of **deep learning**, especially applied in end-to-end solutions for *automatic speech recognition*.
 
-I made this blog to share my knowledge that I've been acquiring through my masters, and doing that, I hope I can simplify the process of creating a speaker recognition for others researchers.
+I made this blog to share my knowledge that I've been acquiring through my masters, hoping that it would help other researchers in DL area.
 
 Enjoy! :)
 
 
 ### More information
 
-For more academic information, please access my curriculum at [**Lattes**](http://lattes.cnpq.br/3790573686920537) platform (only in Portuguese).
+For more academic/professional information, please access [my curriculum](/cv).
 
+{::options parse_block_html="true" /}
+<div class="contact">
 ### Contact
 
 #### Location
 
-Av. Horacio Macedo, 2030 
+Av. Horacio Macedo, 2030
 
-Technology Center, Block H, room 221 and Block I, room 146
+Centro de Tecnologia, Block H, room 221 and Block I, room 146
 
-University City, Rio de Janeiro - RJ
+Cidade Universitária, Rio de Janeiro, RJ - Brazil
 
-CEP 21941-598.
+CEP 21941-598
 
 #### Postal Address
 P.O Box: 68504
 
 CEP: 21941-972
 
-Rio de Janeiro – RJ – Brasil
+Rio de Janeiro, RJ – Brasil
 
 #### Phone/Fax
 Room H-221: +55 (21) 3938-8207
 
 Room I-146: +55 (21) 3938-8118
+
+</div>

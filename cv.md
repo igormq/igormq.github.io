@@ -143,15 +143,15 @@ Activities: Research and development towards new solutions for acoustic localiza
 ---
 
 1. Papers published in conferences
-  * RIBEIRO, J. G. ; QUINTANILHA, I. M. ; CAMPISTA, MIGUEL ELIAS M. ; COSTA, LUIS HENRIQUE M. K. . [Sistema para Monitoramento Descentralizado de Trânsito baseado em Redes Veiculares Infraestruturadas](https://www.gta.ufrj.br/ftp/gta/TechReports/JCC13.pdf). In: XXXI Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos, 2013, Brasília. Trilha Principal e Salão de Ferramentas, 2013. p. 863-876. [paper in Portuguese]
-  * RIBEIRO JUNIOR, JOSE GERALDO ; QUINTANILHA, IGOR M. ; CAMPISTA, MIGUEL ELIAS M. ; COSTA, LUIS HENRIQUE M. K. . [Evaluation of an opportunistic collaborative traffic monitoring system](http://ieeexplore.ieee.org/abstract/document/6402879/?reload=true). In: 2012 IFIP Wireless Days (WD), 2012, Dublin. 2012 IFIP Wireless Days. p. 1-6.
+  * RIBEIRO, J. G. ; **QUINTANILHA, I. M.** ; CAMPISTA, MIGUEL ELIAS M. ; COSTA, LUIS HENRIQUE M. K. . [Sistema para Monitoramento Descentralizado de Trânsito baseado em Redes Veiculares Infraestruturadas](https://www.gta.ufrj.br/ftp/gta/TechReports/JCC13.pdf). In: XXXI Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos, 2013, Brasília. Trilha Principal e Salão de Ferramentas, 2013. p. 863-876. [paper in Portuguese]
+  * RIBEIRO JUNIOR, JOSE GERALDO ; **QUINTANILHA, IGOR M.** ; CAMPISTA, MIGUEL ELIAS M. ; COSTA, LUIS HENRIQUE M. K. . [Evaluation of an opportunistic collaborative traffic monitoring system](http://ieeexplore.ieee.org/abstract/document/6402879/?reload=true). In: 2012 IFIP Wireless Days (WD), 2012, Dublin. 2012 IFIP Wireless Days. p. 1-6.
 
 
 2. Technical productions
-  * AMORIM, B. D. C. G. ; QUINTANILHA, I. M. . Course of Web Development in Ruby on Rails. 2013.
-  * QUINTANILHA, I. M. ; ESTEVÃO FILHO, R. M. Introduction to Deep Learning with Applications. 2016.
+  * AMORIM, B. D. C. G. ; **QUINTANILHA, I. M.** . Course of Web Development in Ruby on Rails. 2013.
+  * **QUINTANILHA, I. M.** ; ESTEVÃO FILHO, R. M. Introduction to Deep Learning with Applications. 2016.
 
 
 ## Organization of events, conferences, and expos
 ---
-* BISCAINHO, L. W. P. ; MANNIS, J. A. ; ANSELMO, J. ; BRITO, J. ; QUINTANILHA, I. M. ; APOLINARIO, I. F. ; COSTA, M. V. M. . Regional Meeting of AES-Brazil. 2016.
+* BISCAINHO, L. W. P. ; MANNIS, J. A. ; ANSELMO, J. ; BRITO, J. ; **QUINTANILHA, I. M.** ; APOLINARIO, I. F. ; COSTA, M. V. M. . Regional Meeting of AES-Brazil. 2016.

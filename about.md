@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is **Igor Quintanilha** and I'm a master's student at Federal University of Rio de Janeiro (UFRJ) in the [Electric Engineering Program](http://www.pee.ufrj.br) of [Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa em Engenharia](http://coppe.ufrj.br) (COPPE) - Brazil.
+Hi, my name is **Igor Quintanilha** and I'm currently an M.Sc. student at the Federal University of Rio de Janeiro (UFRJ) in the [Electric Engineering Program](http://www.pee.ufrj.br) of [Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa em Engenharia](http://coppe.ufrj.br) (COPPE) - Brazil.
 
 My research interest is in the study of **deep learning**, especially applied in end-to-end solutions for *automatic speech recognition*.
 

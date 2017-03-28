@@ -115,7 +115,7 @@ to activate the tensorflow environment.
 
 #### Installing Tensorflow
 
-Installing the Tensorflow is as easily as installing Anaconda. You can follow the step-by-step tutorial [here](https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html#anaconda-installation).
+Installing the Tensorflow is as easily as installing Anaconda. You can follow the step-by-step tutorial [here](https://www.tensorflow.org/install/).
 
 ## CTC
 
@@ -131,7 +131,7 @@ CTC is a cost function used for tasks where you have variable length input and v
 
 Now that I made a short introduction (or not so short; sorry about that) we will start coding.
 
-CTC has already been implemented in Tensorflow since version 0.8 in [`contrib`](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/ops/ctc_ops.py#L30) module (yey!), but is quite confusing using it for the first time. The python docstring isn’t helpful and the solution is going deep and read the docstring in the [.c file](https://github.com/tensorflow/tensorflow/blob/d42facc3cc9611f0c9722c81551a7404a0bd3f6b/tensorflow/core/ops/ctc_ops.cc#L32) and read the [test scripts](https://github.com/tensorflow/tensorflow/blob/679f95e9d8d538c3c02c0da45606bab22a71420e/tensorflow/python/kernel_tests/ctc_loss_op_test.py) from Tensorflow’s GitHub page. Fortunately (or not), I will try to explain better how we can use this function!
+CTC has already been implemented in Tensorflow since version 0.8 in [`nn`](https://www.tensorflow.org/versions/master/api_docs/python/tf/nn/ctc_loss) module (yey!), but is quite confusing using it for the first time. The python docstring isn’t helpful and the solution is going deep and read the docstring in the [.c file](https://github.com/tensorflow/tensorflow/blob/v1.0.1/tensorflow/core/ops/ctc_ops.cc#L32) and read the [test scripts](https://github.com/tensorflow/tensorflow/blob/v1.0.1/tensorflow/python/kernel_tests/ctc_loss_op_test.py) from Tensorflow’s GitHub page. Fortunately (or not), I will try to explain better how we can use this function!
 
 ### Vanilla system
 
@@ -192,21 +192,20 @@ Given the input, now we can feed our network and calculate all the states, so
 ```python
 # Defining the cell
 # Can be:
-#   tf.nn.rnn_cell.RNNCell
-#   tf.nn.rnn_cell.GRUCell
-cell = tf.nn.rnn_cell.LSTMCell(num_hidden, state_is_tuple=True)
+#   tf.contrib.rnn.RNNCell
+#   tf.contrib.rnn.GRUCell
+cell = tf.contrib.rnn.LSTMCell(num_hidden)
 
 # Stacking rnn cells
-stack = tf.nn.rnn_cell.MultiRNNCell([cell] * num_layers,
-                                    state_is_tuple=True)
+stack = tf.contrib.rnn.MultiRNNCell([cell] * num_layers)
 
 # The second output is the last state and we will no use that
 outputs, _ = tf.nn.dynamic_rnn(stack, inputs, seq_len, dtype=tf.float32)
 ```
 
-The argument `state_is_tuple` is set to `True` to avoid annoying warning (and will be the default in the next versions of Tensorflow). The code presented above is very straightforward.
+~~The argument `state_is_tuple` is set to `True` to avoid annoying warning (and will be the default in the next versions of Tensorflow). The code presented above is very straightforward.~~
 
-Using `tf.nn.rnn` instead of `tf.nn.dynamic_rnn` has severals drawbacks. `tf.nn.rnn` cannot performs dynamic unroll of the network, making the graph growing when the time step is big, allocating a lot of memory and slowing the forward/backward pass. Furthermore, `tf.nn.rnn` can only be used if the time step is the same across all batches. For now on, we'll only use the dynamic rnn function.
+~~Using `tf.nn.rnn` instead of `tf.nn.dynamic_rnn` has severals drawbacks. `tf.nn.rnn` cannot performs dynamic unroll of the network, making the graph growing when the time step is big, allocating a lot of memory and slowing the forward/backward pass. Furthermore, `tf.nn.rnn` can only be used if the time step is the same across all batches. For now on, we'll only use the dynamic rnn function.~~
 
 Here, we use only the directional network, but the results can be improved if we use a bidirectional mode (only in the master version on Tensorflow).
 
@@ -224,7 +223,7 @@ After that, we will apply the affine transformation
 ```python
 # Truncated normal with mean 0 and stdev=0.1
 # Tip: Try another initialization
-# see https://www.tensorflow.org/versions/r0.9/api_docs/python/contrib.layers.html#initializers
+# see https://www.tensorflow.org/api_guides/python/contrib.layers
 W = tf.Variable(tf.truncated_normal([num_hidden,
                                      num_classes],
                                     stddev=0.1))
@@ -249,17 +248,17 @@ Here, we need an extra attention. The CTC loss automatically performs the `softm
 # Time major
 logits = tf.transpose(logits, (1, 0, 2))
 
-loss = tf.contrib.ctc.ctc_loss(logits, targets, seq_len)
+loss = tf.nn.ctc_loss(logits, targets, seq_len)
 cost = tf.reduce_mean(loss)
 ```
 
 #### Accuracy
-To evaluate our system, we can use one of two decoders available at `tf.contrib.ctc` module
+To evaluate our system, we can use one of two decoders available at `tf.nn` module
 
 ```python
-# Option 2: tf.contrib.ctc.ctc_beam_search_decoder
+# Option 2: tf.nn.ctc_beam_search_decoder
 # (it's slower but you'll get better results)
-decoded, log_prob = tf.contrib.ctc.ctc_greedy_decoder(logits, seq_len)
+decoded, log_prob = tf.nn.ctc_greedy_decoder(logits, seq_len)
 
 # Accuracy: label error rate
 acc = tf.reduce_mean(tf.edit_distance(tf.cast(decoded[0], tf.int32),
@@ -277,6 +276,9 @@ You can find a working implementation on [GitHub](https://github.com/igormq/ctc_
 There is more! In the next post, I'll show you my efforts trying to get the same LER in the Grave's PhD Thesis[^1].
 
 *See you soon!*
+
+
+**Edit 03/23/2017: Updated to TF1.0+.**
 
 ## References & Footnotes
 

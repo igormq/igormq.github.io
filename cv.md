@@ -34,7 +34,21 @@ Igor Macedo Quintanilha received the B.Sc. degree in Electronics and Computing E
 ## Education
 ---
 
-### 2015 - present
+### 2017 - present
+
+**D.Sc. in Electrical Engineering**
+
+*Federal University of Rio de Janeiro, UFRJ, Brazil*
+
+Title: TBD
+
+Research area: Deep learning with applications in end-to-end automatic speech recognition for low-resource languagess
+
+Advisors: Luiz Wagner Pereira Biscainho and Sergio Lima Netto
+
+Keywords: lvcsr; connectionist temporal classification; deep learning
+
+### 2015 - 2017
 
 **M.Sc. in Electrical Engineering**
 
@@ -83,6 +97,14 @@ Student to Business (S2B) (Duration: 104h)
 ## Professional/Research Background
 ---
 
+### 2020 - present
+
+Founder & CTO at Octos Tecnologia LTDA.
+
+Homepage: www.octos.ai
+
+Activity: Reponsible for the tech area at Octos and the development of its core business.
+
 ### 2013 - 2015
 
 Scientific Initiation project at Signals, Multimedia, and Telecommunications Lab (SMT)
@@ -114,6 +136,26 @@ Activities: I was in charge of developing a prototype of vehicle localization us
 ## Research Projects
 ---
 
+
+### 2017 - 2019
+
+Research intern at Microsoft ATL Brazil team
+
+Title: Deep learning applied to multimedia systems
+
+Activities: Study, apply, and contribute with deep learning algorithms to multimedia systems, focusing on temporal tasks
+
+
+### 2017 - 2018
+
+Researcher in collaboration project
+
+*Federal University of Rio de Janeiro (SMT) / Siemens (Oslo, Norway)*
+
+Title: O&G Condition Monitoring: DP Vessel, Closed Ring Power System fault detection
+
+Activity: Development of fault and anomaly detection algorithms in a closed-ring energy system for DP vessels.
+
 ### 2014
 
 Researcher in collaboration project
@@ -143,11 +185,18 @@ Activities: Research and development towards new solutions for acoustic localiza
 ---
 
 1. Papers published in conferences
+
+  * **QUINTANILHA, I. M.**; BISCAINHO, L. W. P. ; NETTO, S. L. . A New Automatic Speech Recognizer for Brazilian Portuguese Based on Deep Neural Networks and Transfer Learning. In: Congreso Latinoamericano de Ingeniería de Audio de la AES, 2018, Montevidéu. Memorias del AES LAC 2018, 2018. p. 16-22.
+  * PASSOS, W. L. ; **QUINTANILHA, I. M.** ; ARAUJO, G. M. . Real-Time Deep-Learning-Based System for Facial Recognition. In: XXXVI Simpósio Brasileiro de Telecomunicações e Processamento de Sinais, 2018, Campina Grande, PB. Anais do XXXVI Simpósio Brasileiro de Telecomunicações e Processamento de Sinais, 2018. p. 895-899.
+  * **QUINTANILHA, I. M.**; BISCAINHO, L. W. P. ; NETTO, S. L. . Assessing the Performance of a Post-Processed End-to-End Speech Recognizer for Brazilian Portuguese Using Deep Neural Networks. In: Congresso de Engenharia de Áudio da AES-Brasil, 2017, Florianópolis. Anais do 15o. Congresso de Engenharia de Áudio da AES-Brasil, 2017. p. 55-62.
+  * **QUINTANILHA, I. M.**; BISCAINHO, L. W. P. ; NETTO, S. L. . Towards an End-to-End Speech Recognizer for Portuguese Using Deep Neural Networks. In: Simpósio Brasileiro de Telecomunicações e Processamento de Sinais, 2017, São Pedro. Anais do XXXV Simpósio Brasileiro de Telecomunicações e Processamento de Sinais, 2017. p. 408-412.
   * RIBEIRO, J. G. ; **QUINTANILHA, I. M.** ; CAMPISTA, MIGUEL ELIAS M. ; COSTA, LUIS HENRIQUE M. K. . [Sistema para Monitoramento Descentralizado de Trânsito baseado em Redes Veiculares Infraestruturadas](https://www.gta.ufrj.br/ftp/gta/TechReports/JCC13.pdf). In: XXXI Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos, 2013, Brasília. Trilha Principal e Salão de Ferramentas, 2013. p. 863-876. [paper in Portuguese]
   * RIBEIRO JUNIOR, JOSE GERALDO ; **QUINTANILHA, IGOR M.** ; CAMPISTA, MIGUEL ELIAS M. ; COSTA, LUIS HENRIQUE M. K. . [Evaluation of an opportunistic collaborative traffic monitoring system](http://ieeexplore.ieee.org/abstract/document/6402879/?reload=true). In: 2012 IFIP Wireless Days (WD), 2012, Dublin. 2012 IFIP Wireless Days. p. 1-6.
 
 
 2. Technical productions
+
+  * **QUINTANILHA, I. M.**; CINELLI, L. P. . Introduction to Deep Learning and its Applications. 2018. (Short duration course, in Portuguese).
   * AMORIM, B. D. C. G. ; **QUINTANILHA, I. M.** . Course of Web Development in Ruby on Rails. 2013.
   * **QUINTANILHA, I. M.** ; ESTEVÃO FILHO, R. M. Introduction to Deep Learning with Applications. 2016.
 

@@ -29,7 +29,7 @@ Born in September 24, 1991 in Teresópolis, RJ - Brazil.
 
 ## Short biography
 ---
-Igor Macedo Quintanilha received the B.Sc. degree in Electronics and Computing Engineering from Federal University of Rio de Janeiro (UFRJ), Brazil, in 2016. In 2012, he was a scientific initiation student at the Grupo de Teleinformática e Automação (GTA), focusing on vehicular networks. Since 2013, he has been working at the Laboratory of Signals, Multimedia, and Telecommunications (SMT). He is currently working toward the M.Sc. degree with the Electrical Engineering Program (PEE) at Federal University of Rio de Janeiro, RJ, Brazil. He has interests in deep learning, speech recognition, computer vision, and signal processing.
+Igor Macedo Quintanilha received the B.Sc. degree in Electronics and Computing Engineering from Federal University of Rio de Janeiro (UFRJ), Brazil, in 2016. In 2012, he was a scientific initiation student at the Grupo de Teleinformática e Automação (GTA), focusing on vehicular networks. Since 2013, he has been working at the Laboratory of Signals, Multimedia, and Telecommunications (SMT). In 2017, he received his M.Sc. degree in Electrical Engineering from Federal University of Rio de Janeiro (UFRJ). He is currently working toward the D.Sc. degree with the Electrical Engineering Program (PEE) at Federal University of Rio de Janeiro, RJ, Brazil. He has interests in deep learning, speech recognition, computer vision, and signal processing.
 
 ## Education
 ---
